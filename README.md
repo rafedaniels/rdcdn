@@ -2,10 +2,10 @@
 This proyect contains a few binaries that I use for my personal proyects, that I made public for everyone use.
 
 ## Version
-This proyect is currently on version 1.0.1 with build number: b0003
+This proyect is currently on version 1.0.1 with build number: b0004
 
 ## Index
-For index, refer to [this link.](/index.html)
+For index, refer to [this link.](index.html)
 
 ## Includes
 This binaries include, but are not limited to: BootstrapCSS Custom Builds, Font Awesome custom Icons, jQuery, Custom Libraries, and more.
