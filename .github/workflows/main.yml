@@ -25,9 +25,6 @@ jobs:
           echo "🔎 The current branch being tested is ${{ github.ref }}"
       - name: Check repository
         uses: actions/checkout@v3
-        run: |
-          echo "💡 Repository cloned to runner"
-          echo "🖥️ Runner ready!"
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
