@@ -18,13 +18,14 @@ jobs:
   Build:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 Push successful, starting the building process."
-      - run: echo "🐧 Testing on ${{ runner.os }}!"
-      - run: echo "🔎 The current branch being tested is ${{ github.ref }}"
+      - name: Initial echo's
+        run: echo "🎉 Push successful, starting the building process."
+        run: echo "🐧 Testing on ${{ runner.os }}!"
+        run: echo "🔎 The current branch being tested is ${{ github.ref }}"
       - name: Check repository
         uses: actions/checkout@v3
-      - run: echo "💡 Repository cloned to runner"
-      - run: echo "🖥️ Runner ready!"
+        run: echo "💡 Repository cloned to runner"
+        run: echo "🖥️ Runner ready!"
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
@@ -32,7 +33,8 @@ jobs:
       - name: Checks version and build
         run: |
           cd ${{ github.workspace }}
-          cat VERSION
-          cat BUILD
+          cat VERSION # version of the repo
+          echo ""
+          cat BUILD # build of the repo
           
-      - run: echo "🍏 This job's is now ${{ job.status }}."
+      - run: echo "🍏 This job's is now '${{ job.status }}'."
