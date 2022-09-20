@@ -15,7 +15,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  Regular-Build:
+  Build:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 Push successful, starting the building process."
@@ -35,4 +35,4 @@ jobs:
           cat VERSION
           cat BUILD
           
-      - run: echo "🍏 This job's current status is ${{ job.status }}."
+      - run: echo "🍏 This job's is now ${{ job.status }}."
