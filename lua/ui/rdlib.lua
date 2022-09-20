@@ -1,3 +1,6 @@
+-- -- The following is a modified version of the original UILib
+-- Original by dawid on V3rmillion (Flux UI Remake)
+-- https://v3rmillion.net/showthread.php?tid=1101621
 local RDL = {RainbowColorValue = 0, HueSelectionPosition = 0}
 local PresetColor = Color3.fromRGB(66, 134, 255)
 local UserInputService = game:GetService("UserInputService")

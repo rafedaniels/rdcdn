@@ -2,7 +2,7 @@
 This proyect contains a few binaries that I use for my personal proyects, that I made public for everyone use.
 
 ## Version
-This proyect is currently on version 1.0.1 with build number: b0004
+This proyect is currently on version 1.0.2 with build number: b0005
 
 ## Index
 For index, refer to [this link.](index.html)
